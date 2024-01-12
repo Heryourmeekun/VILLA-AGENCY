@@ -8,52 +8,122 @@ import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <div className="footer">
-      <div className="footer1">
-        <b>Villa</b> <br />
-        <p>Branches</p>
+    <>
+      <div className="footer">
+        <div className="footer1">
+          <b>Villa</b> <br />
+          <p>Branches</p>
+        </div>
+        <div className="footer2">
+          <li>
+            <b>Resources</b>
+          </li>
+          <br />
+          <li>Blog</li> <br />
+          <li>Help center</li> <br />
+          <li>Release Notes</li> <br />
+          <li>Status</li>
+        </div>
+        <div className="footer3">
+          <li>
+            <b>Community</b>
+          </li>
+          <br />
+          <li>
+            <img src={twitter} /> Twitter
+          </li>
+          <br />
+          <li>
+            <img src={facebook} /> Facebook
+          </li>
+          <br />
+          <li>
+            <img src={instagram} /> Instagram
+          </li>{" "}
+          <br />
+          <li>
+            <img
+              src={email}
+              style={{
+                height: "25px",
+                backgroundColor: "gray",
+                borderRadius: "5px",
+              }}
+            />{" "}
+            Podcast
+          </li>
+        </div>
+        <div className="footer4">
+          <li>
+            <b>Useful Links</b>
+          </li>
+          <br />
+          <Link to="/Properties" id="footer5">
+            Properties
+          </Link>
+          <br />
+          <Link to="/Property_detils" id="footer5">
+            Property Details
+          </Link>
+          <br />
+          <Link to="/Contct" id="footer5">
+            Contact
+          </Link>
+          <br />
+          <Link to="/Schedule_visit" id="footer5">
+            Schedule Visit
+          </Link>
+        </div>
       </div>
-      <div className="footer2">
-        <li>
-          <b>Resources</b>
-        </li>
-        <br />
-        <li>Blog</li> <br />
-        <li>Help center</li> <br />
-        <li>Release Notes</li> <br />
-        <li>Status</li>
-      </div>
-      <div className="footer3">
-        <li>
-          <b>Community</b>
-        </li>
-        <br />
-        <li>
-          <img src={twitter} /> Twitter
-        </li><br />
-        <li>
-          <img src={facebook} /> Facebook
-        </li><br />
-        <li>
-          <img src={instagram} /> Instagram
-        </li> <br />
-       
-        <li>
-          <img src={email}  style={{height:"25px",backgroundColor:"gray",borderRadius:"5px"}}/> Podcast
-        </li>
-      </div>
-      <div className="footer4">
-        <li>
-          <b>Useful Links</b>
-        </li>
-        <br />
-        <Link to="/Properties" id='footer5'>Properties</Link> <br />
-        <Link to="/Property_detils" id='footer5'>Property Details</Link> <br />
-        <Link to="/Contct" id='footer5'>Contact</Link> <br />
-        <Link to="/Schedule_visit" id="footer5">
-          Schedule Visit
-        </Link>
-      </div>
-    </div>
+
+      <div className="footer50">
+        
+          <div className="footer1">
+            <b>Villa</b> <br />
+            <p>Branches</p>
+          </div>
+          <div className="footer2">
+            <li>
+              <b>Resources</b>
+            </li>
+            <br />
+            <li>Blog</li> <br />
+            <li>Help center</li> <br />
+            {/* <li>Release Notes</li> <br />
+            <li>Status</li> */}
+          </div>
+          <div className="footer3">
+            <li>
+              <b>Community</b>
+            </li>
+            <br />
+            <li>
+              <img src={twitter} /> Twitter
+            </li>
+            <br />
+            <li>
+              <img src={facebook} /> Facebook
+            </li>
+            <br />
+            {/* <li>
+              <img src={instagram} /> Instagram
+            </li>{" "}
+            <br />
+            <li>
+              <img
+                src={email}
+                style={{
+                  height: "25px",
+                  backgroundColor: "gray",
+                  borderRadius: "5px",
+                }}
+              />{" "}
+              Podcast
+            </li> */}
+          </div>
+          
+        </div>
+      
+    </>
   );
 }

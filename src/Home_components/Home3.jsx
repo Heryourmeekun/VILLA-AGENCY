@@ -7,7 +7,7 @@ export default function Home3() {
     <div className="best">
       <div className="best1">
         <div className="best1a">
-          <p className="build1b">| BEST DEAL</p>
+          <p className="build1j">| BEST DEAL</p>
           <h1 className="best1b">
             <b>Find Your Best</b> <br />
             <b className="now1">Deal Right</b> <b className="now">Now!</b>

@@ -43,7 +43,7 @@ export default function Property_detils() {
             Single Properties
           </Link>
         </div>
-        <div className="prop1c">
+        <div className="prop30">
           <p>SINGLE PROPERTIES</p>
         </div>
       </div>
