@@ -1,7 +1,5 @@
 /* The nav bar */
-body {
-  overflow-x: hidden;
-}
+
 nav {
   background-color: white;
   height: 100px;
@@ -14,13 +12,13 @@ nav {
 }
 .slick-arrow.slick-prev {
   position: relative;
-  left: 650px;
-  top: 795px;
+  left: 50%;
+  top: 748px;
   background-color: #000000;
 }
 .slick-arrow.slick-next {
   position: relative;
-  left: 680px;
+  left: 52%;
   top: 10px;
   background-color: #000000;
 }
@@ -45,7 +43,7 @@ a:hover {
 .logo {
   position: relative;
   top: 30px;
-  margin-left: 150px;
+  margin-left: 80px;
   font-size: xx-large;
   font-weight: bold;
   font-family: sans-serif;
@@ -644,6 +642,14 @@ input {
   font-size: large;
   background-color: black;
 }
+.jab{
+  display: flex;
+  gap: 50px;
+}
+.jab2{
+  display: flex;
+  gap: 50px;
+}
 .prop2d {
   width: 130px;
   height: 40px;
@@ -932,23 +938,16 @@ input {
     margin-left: 50px;
   }
 }
-.backdrop {
-  height: 100vh;
-  width: 100vw;
-  background-color: white;
-  position: fixed;
-  top: 0;
-  filter: blur(2px);
-}
+
 @media screen and (max-width: 480px) {
   .slick-arrow.slick-prev {
     position: relative;
-    left: 160px;
+    left: 168px;
     top: 575px;
   }
   .slick-arrow.slick-next {
     position: relative;
-    left: 200px;
+    left: 205px;
     top: 50px;
   }
 
@@ -986,22 +985,24 @@ input {
     /* position: ; */
     position: fixed;
     top: 0px;
-    z-index: 1000;
+     z-index: 1000;
   }
   .btn {
     position: fixed;
-    left: 300px;
+    left: 335px;
     top: 30px;
   }
   ul {
     background-color: white;
     color: black;
     position: relative;
-    right: 273px;
+    right: 292px;
     height: 196px;
     width: 290px;
     list-style-type: none;
     margin-top: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
   }
   li {
     margin-top: 10px;
@@ -1112,10 +1113,7 @@ input {
     padding-bottom: 40px;
   }
   /* Home2 */
-  .build1 {
-    height: 100%;
-    width: 100%;
-  }
+  
   .build1a {
     position: relative;
     top: 300px;
@@ -1169,6 +1167,7 @@ input {
     padding-left: 3px;
     padding-top: 3px;
   }
+  
   .book {
     display: grid;
     align-items: center;
@@ -1644,30 +1643,39 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 25px;
     margin-top: 50px;
     padding: 10px;
   }
   .prop2b {
-    width: 90px;
+   
+    width: 110px;
     height: 40px;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 9px;
     color: white;
     font-size: large;
     background-color: rgb(209, 99, 59);
   }
   .prop2c {
-    width: 90px;
+    width: 110px;
     height: 40px;
-    padding-left: 4px;
-    padding-top: 8px;
+    padding-left: 12px;
+    padding-top:9px;
     color: white;
     font-size: large;
     background-color: black;
   }
+  .jab{
+    display: grid;
+    gap: 20px;
+  }
+  .jab2{
+    display: grid;
+    gap: 20px;
+  }
   .prop2d {
-    width: 90px;
+    width: 130px;
     height: 40px;
     padding-left: 18px;
     padding-top: 8px;
@@ -1676,7 +1684,7 @@ input {
     background-color: black;
   }
   .prop2e {
-    width: 90px;
+    width: 130px;
     height: 40px;
     padding-left: 20px;
     padding-top: 8px;
@@ -1736,7 +1744,7 @@ input {
     height: 40px;
   }
   .singleproperty {
-    width: 70%;
+    width: 100%;
     position: relative;
     right: 65px;
   }

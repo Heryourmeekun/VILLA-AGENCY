@@ -26,7 +26,7 @@ export default function Home2() {
         </h1>
       </div>
       <div className="build1">
-        <img src={videoBg}  />
+        <img src={videoBg}  className="free" />
       </div>
       <div className="build2">
         <img src={video} className="build2a" />

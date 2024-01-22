@@ -83,25 +83,32 @@ export default function Properties() {
       </div>
       <div className="prop2">
         <div className="prop2a">
+        <div className="jab">
           <div className="prop2b">
             <span className="2b1" onClick={() => setFilter("")}>
               Show All
             </span>
           </div>
           <div className="prop2c">
+            
             <span className="prop2c1" onClick={() => setFilter("Apartment")}>
               Apartment
             </span>
           </div>
+          </div>
+          <div className="jab2">
           <div className="prop2d">
             <span className="prop2d1" onClick={() => setFilter("Luxury Villa")}>
               Villa Agency
             </span>
+         
           </div>
+         
           <div className="prop2e">
             <span className="prop2e1" onClick={() => setFilter("Penthouse")}>
               Pent house
             </span>
+          </div>
           </div>
         </div>
         <div className="type1">{book3()}</div>
