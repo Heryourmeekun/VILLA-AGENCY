@@ -1187,6 +1187,10 @@ input {
     width: 260px;
     border-radius: 10px;
   }
+  .free{
+    width:400px;
+    height:400px;
+  }
   .box1a {
     position: relative;
     color: brown;
