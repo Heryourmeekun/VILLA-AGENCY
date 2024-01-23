@@ -940,6 +940,9 @@ input {
 }
 
 @media screen and (max-width: 480px) {
+  body{
+    overflow-x: hidden;
+  }
   .slick-arrow.slick-prev {
     position: relative;
     left: 168px;
@@ -1113,7 +1116,9 @@ input {
     padding-bottom: 40px;
   }
   /* Home2 */
-  
+  .build1{
+    width: 50%;
+  }
   .build1a {
     position: relative;
     top: 300px;
